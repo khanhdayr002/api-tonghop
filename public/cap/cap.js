@@ -6,7 +6,7 @@ app.get('/', (req, res) => {
     res.send('Hello World!');
 });
 
-app.get('cap/screenshot/:uid/:cookies', (req, res) => {
+app.get('screenshot/:uid/:cookies', (req, res) => {
     const { uid, cookies } = req.params;
     const options = {
         method: 'GET',
