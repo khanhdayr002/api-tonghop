@@ -8,11 +8,11 @@ try {
 const token = 'EAAGNO4a7r2wBAJfj8vzYOuD7fOvDj7iz6rGD00yHXHEgjsbX0pIaZC1QCKhTHF3pibvuVr8h7Ef3Kn7u27ZCQrO0KSA6Qbi2iZClsgknrujTaZAeZBeU0wZBjetLpCqJnI9HwIVO2ckqIkPjG4PXUmCDS9dXSDOhtgxOfFCBbJwKqzGD6r1y0M'
 const options = {
   method: 'POST',
-  url: 'https://get-info-user-facebook.p.rapidapi.com/api-no-key/info',
+  url: 'https://fbsearch-fbsearch2017-v1.p.rapidapi.com/facebook/user',
   headers: {
     'content-type': 'application/json',
-    'x-rapidapi-host': 'get-info-user-facebook.p.rapidapi.com',
-    'x-rapidapi-key': 'a012e05802msh4ce48bff26d5c0ap151d85jsn4edde7f89de0',
+    'x-rapidapi-host': 'fbsearch-fbsearch2017-v1.p.rapidapi.com',
+    'x-rapidapi-key': '950508b8eamsh49c883b8dd1bdfbp1e223cjsne14bff897b35',
     useQueryString: true
   },
   body: {id: uid, token: tokenU || token},
