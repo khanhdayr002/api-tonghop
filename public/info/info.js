@@ -1,4 +1,4 @@
-exports.name = '/info';
+exports.name = '/info/info';
 exports.index = async (req, ress, next) => {
 const request = require('request');
 var uid = req.query.uid
