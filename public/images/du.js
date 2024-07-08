@@ -1,4 +1,4 @@
-exports.name = '/image/du';
+exports.name = '/image/ngochieu';
 exports.index = async(req, res, next) => {
     try {
         const girl = require('./data/json/du.json');
